@@ -134,7 +134,7 @@ class PowerRose:
     #     return df_combine
 
     def _norm_frequency(self, df):
-        print("Norming frequency total of %.2f to 1.0" % df.freq_val.sum())
+        # print("Norming frequency total of %.2f to 1.0" % df.freq_val.sum())
         df["freq_val"] = df.freq_val / df.freq_val.sum()
         return df
 

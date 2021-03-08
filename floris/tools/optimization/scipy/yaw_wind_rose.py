@@ -530,11 +530,6 @@ class YawOptimizationWindRose(Optimization):
                 containing the ideal power without wake losses for each wind
                 turbine in the wind farm (W).
         """
-        print("=====================================================")
-        print("Calculating baseline power...")
-        print("Number of wind conditions to calculate = ", len(self.wd))
-        print("=====================================================")
-
         # Put results in dict for speed, instead of previously
         # appending to frame.
         result_dict = dict()
